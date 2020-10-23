@@ -1,6 +1,7 @@
 body {
   font-family: "Lato", sans-serif !important;
   background-color: #d8d8d8;
+  padding-top: 5.5rem;
 }
 
 .nav-icon {
@@ -28,6 +29,11 @@ a:hover {
   color: #ccc !important;
   font-weight: 700;
   font-size: 0.85rem;
+}
+
+.nav-item:not(:last-child)
+  > .nav-link.dropdown-toggle:hover {
+  color: #fff !important;
 }
 
 .navbar-nav > .nav-item {
