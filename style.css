@@ -10,9 +10,34 @@ body {
 /* 300, 400,700, 900 */
 
 .nav-link {
+  color: #595959;
+  font-weight: 700;
+  padding: 0 1rem;
+}
+
+.nav > .nav-item:nth-child(1) {
+  border-bottom: 2px solid #78387b;
+}
+
+a:hover {
+  color: #78387b;
+}
+
+.nav-item:not(:last-child)
+  > .nav-link.dropdown-toggle {
   color: #ccc !important;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.navbar-nav > .nav-item {
+  margin: 0 0.5rem;
+}
+
+.nav-item:last-child > .nav-link.dropdown-toggle {
+  color: #de8ae5 !important;
+  font-weight: 700;
+  font-size: 0.85rem;
 }
 
 .navbar-brand {
@@ -90,6 +115,61 @@ body {
   text-align: right;
 }
 
+.card-img-top {
+  height: 116px;
+}
+
 .card-title {
   font-size: 0.75rem;
+}
+
+.color-pink {
+  color: #78387b !important;
+}
+
+.game {
+  display: flex;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.game > .description {
+  margin-left: 1rem;
+  flex-grow: 1;
+}
+
+.description > p {
+  font-size: 0.9rem;
+}
+
+.description > button {
+  font-size: 0.6rem;
+  background-color: #094a77;
+  border-color: #094a77;
+}
+
+.description > button:hover {
+  background-color: #094a77;
+  border-color: #094a77;
+}
+
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+/* Create four equal columns that sits next to each other */
+.grid-col {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 2px;
+}
+
+.grid-col img {
+  padding: 2px 0px;
+  vertical-align: middle;
+  width: 100%;
 }
