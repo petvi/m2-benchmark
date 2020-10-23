@@ -1,4 +1,4 @@
-## GitHub Jobs
+## GOG
 
 GOG is a digital distribution platform for video games.
 
