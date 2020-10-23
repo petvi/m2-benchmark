@@ -6,4 +6,4 @@ GOG is a digital distribution platform for video games.
 
 ### Screenshot
 
-![Screenshot](https://reverent-raman-043cdc.netlify.app/img/preview.png)
+![Screenshot](https://petvi.github.io/img/project-2.jpg)
