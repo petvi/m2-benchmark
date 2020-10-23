@@ -1,0 +1,95 @@
+body {
+  font-family: "Lato", sans-serif !important;
+  background-color: #d8d8d8;
+}
+
+.nav-icon {
+  color: #ccc;
+}
+
+/* 300, 400,700, 900 */
+
+.nav-link {
+  color: #ccc !important;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.navbar-brand {
+  font-size: 0.75rem;
+  line-height: 85%;
+  padding: 0.35rem 0.25rem;
+  border-radius: 0.25rem;
+  font-weight: 900;
+}
+
+.navbar {
+  background: url(/img/bg.jpg) repeat-x top center;
+  background-color: rgba(
+    26,
+    26,
+    26,
+    0.9
+  ) !important;
+}
+
+.discount {
+  background-color: #78387b;
+  border-color: #78387b;
+  font-size: 1.75rem !important;
+  padding: 0.6rem 0.8rem;
+}
+
+.carousel {
+  cursor: pointer;
+}
+
+.carousel-item {
+  height: 400px;
+  overflow: hidden;
+  background: linear-gradient(
+    7deg,
+    rgb(13, 5, 7),
+    rgba(13, 5, 7, 0.65) 30%,
+    rgba(13, 5, 7, 0) 50%
+  );
+}
+
+.carousel-caption {
+  right: 20px;
+  left: 20px;
+  bottom: 0px;
+}
+
+.price {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 1rem;
+}
+
+.zi {
+  background: linear-gradient(
+    -180deg,
+    #c1ec51,
+    #80b02a
+  );
+  border: none;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card-body {
+  background: hsla(0, 0%, 98%, 0.6);
+  font-size: 0.75rem;
+}
+
+.card-body > p {
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.card-title {
+  font-size: 0.75rem;
+}
