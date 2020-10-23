@@ -70,7 +70,7 @@ a:hover {
 }
 
 .carousel-item {
-  height: 400px;
+  height: 325px;
   overflow: hidden;
   background: linear-gradient(
     7deg,
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .card-body > p {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   text-align: right;
 }
 
@@ -120,7 +120,7 @@ a:hover {
 }
 
 .card-title {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .color-pink {
